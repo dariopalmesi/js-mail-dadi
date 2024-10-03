@@ -12,10 +12,10 @@ console.log(email);
 mail = prompt('inserire mail')
 
 for (let i = 0; i <= email.length; i++) {
-    if (mail <= email) {
+    
+}if (mail <= email) {
         alert('questa email è corretta');
 
     } else {
         alert('questa email non è corretta');
     }
-}
