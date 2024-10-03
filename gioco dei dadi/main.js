@@ -1,11 +1,20 @@
 console.log('ciao');
 
 // dati dei giocatori
-let giocatore = [1,2,3,4,5,6];
-let computer = [1,2,3,4,5,6];
+
 
 // confronto del risultato che determina il vincitore
-giocatore = Number(window.prompt("inserire numero"));
-computer = Number(window.prompt('inserire numero'))
+let giocatore = Math.random() 
 
-console.log(JSON.stringify(giocatore) === JSON.stringify(computer));
+let computer = Math.random() 
+
+if (giocatore > computer) {
+    console.log('il giocatore vince');
+ 
+}else if (giocatore < computer) {
+    console.log('il giocatore perde');
+    
+}else {
+    console.log('il risultato è uguale');
+    
+}
