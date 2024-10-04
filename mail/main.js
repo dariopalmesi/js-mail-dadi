@@ -10,12 +10,17 @@ console.log(email);
 // punto 2
 // verificare se fa parte di quel sito e di conseguenza stampare l'esito del controllo
 mail = prompt('inserire mail')
+console.log(mail);
 
-for (let i = 0; i <= email.length; i++) {
-    
-}if (mail <= email) {
-        alert('questa email è corretta');
 
-    } else {
-        alert('questa email non è corretta');
+for (let i = 0; i < email.length; i++) {
+    const thisemail = email[i]
+   if (thisemail == mail) {
+        console.log('questa email è corretta');
+
+
+    }else {
+        console.log('non è corretta');
+        
     }
+} 
