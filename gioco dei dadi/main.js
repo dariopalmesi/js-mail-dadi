@@ -4,9 +4,9 @@ console.log('ciao');
 
 
 // confronto del risultato che determina il vincitore
-let giocatore = Math.random() 
+let giocatore = Math.floor(Math.random() * 6) + 1;
 
-let computer = Math.random() 
+let computer = Math.floor(Math.random() * 6) + 1;
 
 if (giocatore > computer) {
     console.log('il giocatore vince');
